@@ -5,7 +5,7 @@ import jwt, { JwtPayload } from "jsonwebtoken";
 import path from "path";
 
 const JWT_SECRET = "test123";
-console.log(JWT_SECRET);
+
 const app = express();
 app.use(cookieParser());
 app.use(express.json());
